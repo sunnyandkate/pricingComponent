@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Frontend Mentor | [Pricing Comoponent]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet ‘ -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body onkeydown="keyCode(event)">
+	<div class="container">
+		<div class="main-container">
+			<header>
+				<h1> Our Pricing</h1>
+				<div class="toggle-price">
+					<p>Annually</p>
+					<input type="checkbox" name="toggle" id="toggle">
+					<label class="switch" for="toggle"><span class="switch-btn"></span></label>
+					<p>Monthly</p>
+				</div>		
+			</header>
+		<div class="main-content">
+			<div class="card">
+				<h3 class="card-title">Basic</h3>
+				<div class="card-price">&dollar;<span class="price1">19.99</span></div>
+				<p>500 GB Storage</p>
+				<p> 2 Users Allowed</p>
+				<p class="last"> Send up to 3 GB</p>
+				<button class="card-btn">Learn More</button>
+			</div>
+			<div class="card">
+				<h3>Professional</h3>
+				<div class="card-price">&dollar;<span class="price2">24.99</span></div>
+				<p>1 TB Storage</p>
+				<p> 5 Users Allowed</p>
+				<p class="last"> Send up to 10 GB</p>
+				<button class="card-btn">Learn More</button>
+			</div>
+			<div class="card">
+				<h3>Master</h3>
+				<div class="card-price">&dollar;<span class="price3">39.99</span></div>
+				<p>2 TB Storage</p>
+				<p> 10 Users Allowed</p>
+				<p class="last"> Send up to 20 GB</p>
+				<button class="card-btn">Learn More</button>
+			</div>
+		</div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://sunnyandkate.com">kate</a>.
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
